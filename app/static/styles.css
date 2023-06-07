@@ -11,7 +11,7 @@ header {
   padding: 20px;
   background-color: #4bc3cc;
 }
-
+/*Determinando a altura da logo*/
 .logo img {
   height: 40px;
 }
@@ -271,4 +271,19 @@ button {
 button:hover {
   background-color: #4bc3cc;
   color: #fff;
+}
+
+/*Inserindo a responsividade*/
+@media (max-width: 600px) {
+  .container {
+      padding: 20px;
+  }
+
+  .column {
+      margin: 0;
+  }
+
+  .form {
+      margin-top: 50px;
+  }
 }

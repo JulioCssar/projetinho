@@ -19,7 +19,7 @@
         confirmButtonText: "OK"
       }).then(() => {
         // Redirecionar para outra página após o login bem-sucedido
-        window.location.href = "../pagina.html";
+        window.location.href = "../pagina";
 
       });
     } else {
