@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'cadastro.css'%}">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    </link>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javaScript" src="{%static 'cadastro.js'%}" defer></script>
+    <title>Formulário de Login</title>
+</head>
+
+<body>
+   <!-- Formulário de Login -->
+ <div class="container">
+        <div class="column">
+            <div id="login-form" class="form">
+                <img src="{%static 'uberpet-imagem.jpg'%}">
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+
+                    <button type="submit"><a href="../pagina">Login</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

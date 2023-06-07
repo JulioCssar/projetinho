@@ -1,0 +1,1 @@
+web: gunicorn juncao.wsgi --log-file
