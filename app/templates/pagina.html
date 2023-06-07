@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uber Pets</title>
+  <script type="text/javaScript" src="script.js" defer></script>
+  <link rel="stylesheet" href="{%static 'styles.css'%}" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="{%static 'UBERPETS.png'%}" alt="Logo" />
+    </div>
+    <div class="header-info">
+      <nav>
+        <ul>
+          <li><a href="#home">In&iacute;cio</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="../sobre">Sobre</a></li>
+          <li><a href="../login">Login</a></li>
+          <li><a href="../cadastro">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home">
+    <div class="home-content">
+      <div class="text">
+        <h2>Bem-vindo &agrave; UberPets!</h2>
+        <h3>O aplicativo de transporte para Pets</h3>
+      </div>
+      <div class="image">
+        <img src="{%static 'mobilidadeurbana-custom_800x800 1.png'%}" />
+      </div>
+    </div>
+  </section>
+
+  <section id="comunidade">
+    <div class="container">
+      <div class="card">
+        <img src="{%static 'Novo Projeto (1).png'%}" alt="Imagem 1" />
+        <div class="card-info">
+          <h3>Comunidade</h3>
+          <hr class="barra" />
+          <p>
+            Bem-vindo &agrave; comunidade UberPets, onde amantes de animais se unem para proporcionar transporte seguro e confort&aacute;vel para seus queridos pets. Faça parte dessa experi&ecirc;ncia alegre e despreocupada!</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{%static 'Novo Projeto (2).png'%}" alt="Imagem 2" />
+        <div class="card-info">
+          <h3>Colabora&ccedil;&atilde;o</h3>
+          <hr class="barra" />
+          <p>Junte-se &agrave; nossa comunidade UberPets, onde colaboramos para o bem-estar dos animais de estima&ccedil;&atilde;o. Garantimos viagens seguras, compartilhando informações sobre as necessidades dos pets. Seja parte dessa rede colaborativa, valorizando cada voz e contribuição.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="{%static 'Novo Projeto (3).png'%}" alt="Imagem 3" />
+        <div class="card-info">
+          <h3>Inova&ccedil;&atilde;o</h3>
+          <hr class="barra" />
+          <p>
+            Junte-se &agrave; UberPets e experimente a vanguarda do transporte de animais de estima&ccedil;&atilde;o. Com inova&ccedil;&atilde;o tecnol&oacute;gica, oferecemos comodidade, segurança e opç&otilde;es personalizadas para atender &agrave;s necessidades individuais de cada pet. Faça parte dessa experi&ecirc;ncia moderna e inovadora!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="conteudo">
+    <div class="container-oportunidades">
+      <div class="imagem">
+        <img src="{%static 'grafico.png'%}" alt="Imagem" />
+      </div>
+      <div class="texto">
+        <h2>
+          Melhores oportunidades de <br />
+          neg&oacute;cios para voc&ecirc;
+        </h2>
+        <p>
+          Bem-vindo ao nosso site, a sua plataforma de transporte dedicada aos animais de estima&ccedil;&atilde;o. Aqui, oferecemos uma experi&ecirc;ncia semelhante ao Uber, mas especialmente projetada para atender &agrave;s necessidades dos nossos queridos amigos de quatro patas. Com apenas alguns cliques, você pode agendar uma viagem segura e confort	&aacute;vel para o seu pet, com motoristas especializados e apaixonados por animais. Nossa plataforma inovadora e intuitiva permite que você acompanhe o trajeto em tempo real e receba atualizações sobre a jornada do seu amiguinho. Venha descobrir a conveni	&ecirc;ncia e a tranquilidade de utilizar o nosso servi	&ccedil;o, tornando cada deslocamento do seu pet uma experi	&ecirc;ncia agrad&aacute;vel e segura.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos">
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h4>Plano Start</h4>
+          <h2>$9.99/m&ecirc;s</h2>
+        </div>
+        <ul class="beneficios">
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 1</li>
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 2</li>
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 3</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h4>Plano Pro</h4>
+          <h2>$19.99/m&ecirc;s</h2>
+        </div>
+        <ul class="beneficios">
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 1</li>
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 2</li>
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 3</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h4>Plano Expert</h4>
+          <h2>$29.99/m&ecirc;s</h2>
+        </div>
+        <ul class="beneficios">
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 1</li>
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 2</li>
+          <li><i class="fas fa-check"></i> Benef&iacute;cio 3</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter">
+    <div class="newsletter-container">
+      <h2>Assine nossa Newsletter</h2>
+      <form id="newsletter-form">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
